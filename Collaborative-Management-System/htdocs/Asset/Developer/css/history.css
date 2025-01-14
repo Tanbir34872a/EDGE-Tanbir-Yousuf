@@ -1,0 +1,77 @@
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Horizontal line */
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Navigation links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Main content */
+  main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  main h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Skills and Expertise */
+  main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  main li {
+    margin-bottom: 5px;
+  }
+  
+  /* Project Preferences */
+  main table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  main th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Project Recommendations */
+  main .no-recommendations {
+    font-style: italic;
+    color: #999;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+  }
+  

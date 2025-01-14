@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+/* header setting */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h3 {
+  margin: 0;
+  font-size: larger;
+}
+#loggedIn {
+  text-align: left;
+  font-size: small;
+}
+#loggedIn a {
+  text-decoration: none;
+  color: red;
+}
+main {
+  display: flex;
+  width: 100%;
+}
+
+#AdminMenu {
+  width: 20%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  font-size: medium;
+  font-weight: bold;
+}
+#AdminMenu h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#AdminMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#AdminMenu li {
+  margin-bottom: 10px;
+}
+#AdminMenu a {
+  text-decoration: none;
+  color: #333;
+}
+#AdminMenu ul li a:hover {
+  color: #009688;
+}
+#mainArea {
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+fieldset h4 {
+  margin-top: 0;
+}
+.btn input {
+  background-color: #d0e8d4;
+  color: #333;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn input:focus {
+  background-color: #d3d3d3;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

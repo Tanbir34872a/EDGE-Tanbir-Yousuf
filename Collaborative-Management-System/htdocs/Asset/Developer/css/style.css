@@ -1,0 +1,44 @@
+/* Header Styling */
+h3 {
+    display: block;
+    background-color: #333;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Main Content Styling */
+  #signup a {
+    float: left;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Login Form Styling */
+  form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  fieldset {
+    width: 25%;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td,
+  th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Footer Styling */
+  footer h4 {
+    text-align: center;
+  }
+  

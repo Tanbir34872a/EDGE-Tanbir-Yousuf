@@ -1,0 +1,82 @@
+/* td { vertical-align:top;} */
+/* Reset some default styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the container */
+#container {
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+
+/* Style for the header */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+}
+
+#header p {
+    margin: 0;
+}
+
+#header a {
+    color: #fff
+}
+
+/* Style for the sidebar */
+#sidebar {
+    width: 30%;
+    background-color: #eee;
+    padding: 50px;
+    border-right: 1px solid #ccc;
+}
+
+#sidebar h3 {
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#sidebar ul li a:hover {
+    color: #009688;
+}
+
+/* Style for the main content */
+#main-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Style for the footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
